@@ -1,0 +1,64 @@
+Data files that contain the variable sub-component,Variable sub-component,Definition / example col. header,Data type of col. (variable),Character length,Accepted values,Required?,Accepts null value?
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,T,"truncated – data were required to be obtained from animals born before 2009 to ensure that genomic selection was not present in any of those data, so data is cut off at 2009.
+Example: T_W_HO_SD_dpr_SB_1",decimal,12,,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,HO,values are for Holstein,decimal | integer,12,,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,W,"average weighted by number of offspring.
+Example: W_HO_PTA_dpr_SB",decimal,12,,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,UW,"average unweighted by offspring (each parent is included in an average once).
+Example: UW_HO_PTA_dpr_SB",decimal,12,,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,BY1,"average is grouped by birth year of offspring. Example: W_BY1_HO_SD_dpr_SB.  If not BY1, then average is grouped by birth year of parent. Example: W_HO_SD_dpr_SB.",decimal,12,,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,PTA,"Predicted Transmitting Ability – one half of the estimate of the breeding value, the difference that an offspring of an animal would have compared with a base value of zero.
+Example: T_W_HO_PTA_dpr_SB",decimal,12,,y,y - #N/A
+HO_DPR.csv,dpr,"Daughter Pregnancy Rate.
+Example: T_W_HO_PTA_dpr_SB",decimal,12,,y,y - #N/A
+HO_f.csv,f,"fat yield
+Example: W_HO_PTA_f_SB",decimal,12,,y,y - #N/A
+HO_m.csv,m,"millk yield
+Example: W_HO_PTA_m_SB",decimal,12,,y,y - #N/A
+HO_p.csv,p,"protein yield
+Example: W_HO_PTA_p_SB",decimal,12,,y,y - #N/A
+HO_pl.csv,pl,"productive life
+Example: W_HO_PTA_pl_SB",decimal,12,,y,y - #N/A
+HO_scs.csv,scs,"somatic cell score
+Example: W_HO_PTA_scs_SB",decimal,12,,y,y - #N/A
+HO_DPR.csv,ptadpr,"Predicted Transmitting Ability, Daughter Pregnancy Rate
+Example: HO_ptadpr_RegCow_1",decimal,12,,y,y - #N/A
+HO_f.csv,ptaf,"Predicted Transmitting Ability, fat yield
+Example: HO_ptaf_RegCow_1",decimal,12,,y,y - #N/A
+HO_m.csv,ptam,"Predicted Transmitting Ability, milk yield
+Example: HO_ptam_RegCow_1",decimal,12,,y,y - #N/A
+HO_p.csv,ptap,"Predicted Transmitting Ability, protein yield
+Example: HO_ptap_RegCow_1",decimal,12,,y,y - #N/A
+HO_pl.csv,ptapl,"Predicted Transmitting Ability, productive life
+Example: HO_ptapl_RegCow_1",decimal,12,,y,y - #N/A
+HO_scs.csv,ptascs,"Predicted Transmitting Ability, somatic cell score
+Example: HO_ptascs_RegCow_1",decimal,12,,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,SD,"averages are for selection differentials
+Example: W_HO_SD_dpr_SB",decimal,12,,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,NUM,"number of records that an average is based on
+Example: W_HO_NUM_PTA_SB",integer,5,,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,REL,"reliability – a measure of the accuracy of the PTAs
+Example: W_HO_REL_dpr_SC",decimal,12,,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,RegCow,"registered cows
+Example: HO_ptadpr_RegCow_1",decimal,12,,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,AllCow,"all cows
+Example: HO_ptadpr_AllCow_1",decimal,12,,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,DB,"averages for dam of bull pathway
+Example: W_HO_PTA_dpr_DB",decimal,12,,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,DC,"averages for dam of cow pathway
+Example: W_HO_PTA_dpr_DC",decimal,12,,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,SB,"averages for sire of bull pathway
+Example: W_HO_PTA_dpr_SB",decimal,12,,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,SC,"averages for sire of cow pathway
+Example: W_HO_PTA_dpr_SC",decimal,12,,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,yob1,year of birth progeny 1,year,4,1975 to 2015,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,yob2,year of birth progeny 2,year,4,1975 to 2015,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,yob3,year of birth progeny 3,year,4,1975 to 2015,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,yob4,year of birth progeny 4,year,4,1975 to 2015,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,yob5,year of birth progeny 5,year,4,1975 to 2015,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,yob6,year of birth progeny 6,year,4,1975 to 2015,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,yob7,year of birth progeny 7,year,4,1975 to 2015,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,GenInt,"generation interval
+Example: GenInt_SB",decimal,12,,y,y - #N/A
+HO_DPR.csv | HO_f.csv | HO_M.csv | HO_p.csv | HO_pl.csv | HO_scs.csv,nGI,"number of parent-offspring pairs used to estimate generation interval
+Example: nGI_SB",integer,7,,y,y - #N/A
